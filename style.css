@@ -1,0 +1,328 @@
+body {
+    margin-top: 5px ;
+    min-width: 1200px;
+    background-image: url(images/background.png);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border-radius: 30px 30px 0 0;
+
+}
+
+.header-links a {
+    color: #b57022;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 25px;
+}
+.header-links a:hover {
+    background-color: #d8913f;
+}
+.btn{
+    background-color:#e0933b;
+    border-radius: 25px;
+    padding: 5px 15px;
+    color: #3e270d;
+    border: none;
+    font-size: 20px;
+}
+.btn:hover {
+    background-color: #64421b;
+}
+.logo {
+    width: 150px;
+    margin-top: 25px;
+    border-radius: 150px;
+
+}
+.salla {
+    width: 60px;
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+}
+.salla:hover {
+    transform: scale(1.08);
+}
+.landing-page {
+    border-radius: 0 0 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 15px;
+}
+.landing-page-left-section {
+    width: 50%;
+    padding-left: 30px;
+}
+.landing-page-left-section span {
+    font-size: 30px;
+    font-weight: 200;
+    color: #c18644;
+    
+}
+
+.landing-page-left-section h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-style: italic;
+    color: #c18644;
+}
+
+.landing-page-left-section p {
+    font-size: 25px;
+    font-style:italic;
+    padding-right: 20px;
+    padding-left: 5px;
+    color:rgb(207, 125, 67);
+    padding-top: 15px;
+
+
+}
+.landing-page-search {
+    padding-top: 50px;
+    color: coral;
+}
+
+.landing-page-search input {
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 350px;
+    padding: 0px 10px;
+    color: rgb(100, 60, 9);
+
+}
+
+.landing-page-search button {
+    position: absolute;
+    left: 260px;
+    height: 50px;
+    border-radius: 25px;
+
+}
+
+.hotdrinks-container {
+    background-color: #64421b;
+    margin-top: 50px;
+    padding: 60px 60px 20px 20px;
+    border-radius: 50px;
+    
+}
+.hotdrinks-container span {
+    color:#d18b3a;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    
+}
+.hotdrinksHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.hotdrinksHeader h2 {
+    margin-top: 2px;
+    color: #d8913f;
+}
+.hotdrinks-menu {
+    display: flex;
+    flex-wrap:wrap; 
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.drink {
+    width: 300px;
+    text-align: center;
+}
+
+.drink h3 {
+    color: #d8913f;
+    font-size: 22px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.drink img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.drink img:hover {
+    transform: scale(1.03);
+}
+.iceddrinks-container {
+    background-color: #b57022;
+    margin-top: 50px;
+    padding: 60px 60px 20px 20px;
+    border-radius: 50px;
+    
+}
+.iceddrinks-container span {
+    color:#553201c7;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    
+}
+.iceddrinksHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.iceddrinksHeader h2 {
+    margin-top: 2px;
+    color: #553201c7;
+}
+.iceddrinks-menu {
+    display: flex;
+    flex-wrap:wrap; 
+    gap: 10px;
+    margin-top: 40px;
+}
+.iceddrinks-menu h3 {
+    color: #553201c7;
+}
+.iceddrinks-menu h4 {
+    color: #553201c7;
+    font-style: italic;
+}
+.mohitodrinks-container {
+    background-color: rgb(233, 203, 122);
+    margin-top: 50px;
+    padding: 60px 60px 20px 20px;
+    border-radius: 50px;
+    
+}
+.mohitodrinks-container span {
+    color:#a76202c7;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    
+}
+.mohitodrinksHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.mohitodrinksHeader h2 {
+    margin-top: 2px;
+    color: #a76202c7;
+}
+.mohitodrinks-menu {
+    display: flex;
+    flex-wrap:wrap; 
+    gap: 10px;
+    margin-top: 40px;
+}
+.mohitodrinks-menu h3 {
+    color:#a76202c7 ;
+}
+.milkshakedrinks-container {
+    background-color: #ca9d6a;
+    margin-top: 50px;
+    padding: 60px 60px 20px 20px;
+    border-radius: 50px;
+    
+}
+.milkshakedrinks-container span {
+    color:#4e3212;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    
+}
+.milkshakedrinksHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.milkshakedrinksHeader h2 {
+    margin-top: 2px;
+    color: #4e3212;
+}
+.milkshakedrinks-menu {
+    display: flex;
+    flex-wrap:wrap; 
+    gap: 10px;
+    margin-top: 40px;
+}
+.milkshakedrinks-menu h3 {
+    color:#4e3212 ;
+}
+
+.freshdrinks-container {
+    background-color: #edcaa2;
+    margin-top: 50px;
+    padding: 60px 60px 20px 20px;
+    border-radius: 50px;
+
+}
+
+.freshdrinks-container span {
+    color: #4e3212;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.freshdrinksHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.freshdrinksHeader h2 {
+    margin-top: 2px;
+    color: #4e3212;
+}
+
+.freshdrinks-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.freshdrinks-menu h3 {
+    color: #4e3212;
+}
+.copyright-container {
+    background-color: #613c0f;
+    color: #f0dcba;
+    border-radius: 100px 0;
+    padding: 40px 20px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: italic;
+    font-weight: bold;
+}
+.copyright-container h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    letter-spacing: 5px;
+    margin: 0;
+}
+.copyright {
+    font-size: 14px;
+    margin-top: 20px;
+}
+.designer {
+    font-size: 14px;
+    color: #d8b892;
+    margin: 5px 0;
+}
